@@ -1,15 +1,12 @@
 import * as React from "react"
+import Layout from "../components/Layout";
 
-// markup
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
-      <h1>Home Page</h1>
+    <Layout pageTitle="Home Page">
+      <p>I'm making this by following the Gatsby Tutorial.</p>
+    </Layout>
+  );
+}
 
-      <p>하하</p>
-    </main>
-  )
-};
-
-export default IndexPage
+export default IndexPage;
