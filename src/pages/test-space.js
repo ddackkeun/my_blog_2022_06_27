@@ -1,6 +1,6 @@
 import * as React from "react"
 
-const TestPage = () => {
+const TestSpacePage = () => {
   return (
     <main>
       <title>테스트 스페이스</title>
@@ -9,4 +9,4 @@ const TestPage = () => {
   )
 };
 
-export default TestPage;
+export default TestSpacePage;
